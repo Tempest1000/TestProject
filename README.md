@@ -11,12 +11,14 @@ This file is written in Markdown and is best viewed with a Markdown viewer
   * UserResourceTests (nested albums, todos, posts)
   * AlbumResourceTests (nested photos)
 * Implement Negative Tests Cases for above ~ 2 hours
+* Run unit tests in parallel with NUnit using `Parallelizable` attribute and test wrapped in `TestScope` ~ 1-2 hours
 * The `SetupContext` with `.Given()`, etc syntax repeats, not DRY, could be refactored with _systemUnderTest in `SetUp` ~ .5-1 hour
 * TestData Provider could come from CSV or .xlsx files instead of code class ~ 1-2 hours
 * Add HttpStatus codes to an enumeration instead of hardcoding integers like 201 (Created) ~ .5 hour
 * Refactor .Header keys and values, add Json header strings to constants file ~ .25
 * Performance testing using "total-call", "average-ttl-ms", etc ~ 1-2 hours
 * Test API schema ~ 1 hour
+* Add test code generated documentation with DocFx ~ 1-2 hours
 
 ## Problems Found
 
